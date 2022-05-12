@@ -10,36 +10,53 @@
   </head>
   <body>
     <section class="slider">
+      <input type="radio" name="radio-btn" class="radio" id="radio1" checked />
+      <input type="radio" name="radio-btn" class="radio" id="radio2" />
+      <input type="radio" name="radio-btn" class="radio" id="radio3" />
+      <input type="radio" name="radio-btn" class="radio" id="radio4" />
+
+      <div class="controls">
+        <label class="button button1" for="radio1"
+          ><div class="item"></div
+        ></label>
+        <label class="button button2" for="radio2"
+          ><div class="item"></div
+        ></label>
+        <label class="button button3" for="radio3"
+          ><div class="item"></div
+        ></label>
+        <label class="button button4" for="radio4"
+          ><div class="item"></div
+        ></label>
+      </div>
+
       <div class="pictures">
         <label for="button1" class="picture"
-          ><img src="./assets/pic1.jpg" alt="slide" class="image"
+          ><img src="./assets/1.jpg" alt="slide" class="image"
         /></label>
         <label for="button2" class="picture"
-          ><img src="./assets/pic2.jpg" alt="slide" class="image"
+          ><img src="./assets/2.jpg" alt="slide" class="image"
         /></label>
         <label for="button3" class="picture"
-          ><img src="./assets/pic3.jpg" alt="slide" class="image"
+          ><img src="./assets/3.jpg" alt="slide" class="image"
         /></label>
         <label for="button4" class="picture"
-          ><img src="./assets/pic4.jpg" alt="slide" class="image"
+          ><img src="./assets/4.jpg" alt="slide" class="image"
         /></label>
       </div>
-      <div class="desc">
-        <label for="button1" class="desc">desc1</label>
-        <label for="button2" class="desc">desc2</label>
-        <label for="button3" class="desc">desc3</label>
-        <label for="button4" class="desc">desc4</label>
+      <div class="desc-wrapper">
+        <div class="desc-container">
+          <label for="button1" class="desc"
+            >Я и мои друзья после подтверждения навыков друг друга на
+            LinkedIn</label
+          >
+          <label for="button2" class="desc"
+            >Когда за frontend взялся backend'ер</label
+          >
+          <label for="button3" class="desc">Действия при пожаре</label>
+          <label for="button4" class="desc">Мой код за день до дедлайна</label>
+        </div>
       </div>
-      <input
-        type="radio"
-        name="radio-btn"
-        class="button"
-        id="button1"
-        checked
-      />
-      <input type="radio" name="radio-btn" class="button" id="button2" />
-      <input type="radio" name="radio-btn" class="button" id="button3" />
-      <input type="radio" name="radio-btn" class="button" id="button4" />
     </section>
   </body>
 </html>
