@@ -203,12 +203,6 @@ body {
   .slider .controls {
     justify-self: center;
   }
-
-  .slider .desc-wrapper .desc-container .desc {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
 }
 
 @media screen and (max-width: 500px) {
